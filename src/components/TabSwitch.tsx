@@ -1,8 +1,6 @@
 import React from "react";
 
 export const TabSwitch = ({ active, setActive, tabs }: any) => {
-    console.count("rendered tab");
-
     return (
         <ul className="flex flex-wrap text-sm gap-4 border-b-[1.5px] mb-7">
             {tabs.map((tab: any, idx: number) => (

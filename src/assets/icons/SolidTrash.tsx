@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSolidTime(props) {
+export default function SvgSolidTrash(props: any) {
     return (
         <svg
             width={props.size || 16}
@@ -10,9 +10,7 @@ function SvgSolidTime(props) {
             xmlns="http://www.w3.org/2000/svg"
             {...props}
         >
-            <path d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm.538 8.692A.54.54 0 018 9.231H4.308a.54.54 0 01-.539-.539.54.54 0 01.539-.538h3.154V3.077A.54.54 0 018 2.538a.54.54 0 01.538.539v5.615z" />
+            <path d="M2.66634 14.2262C2.66634 15.2019 3.46626 16 4.44414 16H11.5553C12.5331 16 13.333 15.2019 13.333 14.2262V4H2.66634V14.2262ZM14.6664 1.33333H11.333L10.217 0H5.78243L4.66634 1.33333H1.33301V2.66667H14.6664V1.33333Z" />
         </svg>
     );
 }
-
-export default SvgSolidTime;

@@ -1,4 +1,4 @@
-import { SolidCaretRight, SolidUser } from "assets/icons";
+import { SolidCaretRight } from "assets/icons";
 import React from "react";
 
 export const Header = () => {

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSolidFullscreen(props) {
+function SvgSolidFullscreen(props: any) {
     return (
         <svg
             width={props.size || 16}

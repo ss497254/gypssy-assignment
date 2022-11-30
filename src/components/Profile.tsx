@@ -1,6 +1,5 @@
 import {
     LinkIcon,
-    SolidBookmark,
     SolidEdit,
     SolidInstagram,
     StarIcon,
@@ -12,7 +11,7 @@ export const Profile = () => {
     return (
         <div className="max-w-6xl mt-10 mx-auto">
             <div className="flex items-center">
-                <img src="/profile.jpg" className="h-36 w-36 rounded-full" />
+                <img src="/user-2.jpg" className="h-36 w-36 rounded-full" />
                 <div className="mx-6">
                     <h2 className="uppercase text-gray-700 text-xs">
                         Host Profile

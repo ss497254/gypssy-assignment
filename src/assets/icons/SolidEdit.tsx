@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SolidEdit(props) {
+function SolidEdit(props: any) {
     return (
         <svg
             width={props.size || 16}
